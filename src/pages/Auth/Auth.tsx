@@ -10,7 +10,7 @@ import { box } from './Auth.css'
 export default () => {
   const history = useHistory()
 
-  const [email, setEmail] = useState<string>('redactor')
+  const [email, setEmail] = useState<string>('teacher')
   const [password, setPassword] = useState<string>('12345')
   const [isLoading, setLoading] = useState<boolean>(false)
 
