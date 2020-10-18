@@ -69,7 +69,7 @@ export default () => {
                   type="text"
                   required
                   name="login"
-                  defaultValue="redactor"
+                  defaultValue="teacher"
                   onChange={(event: ChangeEvent<HTMLInputElement>) =>
                     setEmail(event.currentTarget.value)
                   }
